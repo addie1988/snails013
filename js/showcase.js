@@ -1,0 +1,1 @@
+new flickerplate(".flicker-example");

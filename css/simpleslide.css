@@ -1,0 +1,59 @@
+.simple-slide-next-arrow,
+.simple-slide-prev-arrow {
+  width: 26px;
+  height: 26px;
+  display: block;
+  cursor: pointer;
+}
+
+.simple-slide-next-arrow {
+  width: 36px;
+  height: 36px;
+  display: block;
+  border: #fe7865;
+  position: absolute;
+  top: 80px;
+  right: -80px;
+  border: 1px solid #fe7865;
+  background: url('../images/arrow2.png') no-repeat center center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.simple-slide-prev-arrow {
+  width: 36px;
+  height: 36px;
+  display: block;
+  border: #fe7865;
+  position: absolute;
+  top: 130px;
+  right: -80px;
+  border: 1px solid #fe7865;
+  background: url('../images/arrow1.png') no-repeat center center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.simple-slide-item-list {
+  width: 280% !important;
+  display: table;
+  table-layout: fixed;
+}
+.simple-slide-item-list > * {
+  position: relative;
+  display: table-cell;
+}
+.simple-slide-item-list > * .caption {
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+  color: #fff;
+}
+.simple-slide-item-list > * img {
+  width: 100%;
+}
